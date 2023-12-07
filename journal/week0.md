@@ -15,4 +15,5 @@ I configured the AWS CLI to store my account credentials through the following s
 - The command ```env | grep aws``` shows you the credential you have set
 - To commit the credentials to memory run the command ```gp env AWS_ACCOUNT_ID```
 
-
+## Create a budget and notification
+I created a budget in AWS through the CLI using the following [block of code](aws/json/budget.json) and created a [budget notification with subscribers](aws/budget-notification-with-subscribers.json)
