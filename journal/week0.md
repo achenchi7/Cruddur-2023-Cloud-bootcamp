@@ -15,5 +15,17 @@ I configured the AWS CLI to store my account credentials through the following s
 - The command ```env | grep aws``` shows you the credential you have set
 - To commit the credentials to memory run the command ```gp env AWS_ACCOUNT_ID```
 
+
+
 ## Create a budget and notification
-I created a budget in AWS through the CLI using the following [block of code](aws/json/budget.json) and created a [budget notification with subscribers](budget-notification-with-subscribers.json)
+I created a budget in AWS through the CLI using the following [block of code](aws/json/budget.json) and created a [budget notification with subscribers](budget-notification-with-subscribers.json) **look into the links**
+
+
+
+## Logical AWS architecture
+I created a logical AWS architecture for the **Cruddur project**, an ephemeral micro blogging platform.
+[Logical AWS architecture](https://lucid.app/lucidchart/54797646-a30f-46fe-9ceb-158c13ae2af2/edit?viewport_loc=-3497%2C-843%2C8635%2C4250%2C0_0&invitationId=inv_af839e59-cc78-4bcb-838c-bd6727e1cded)
+
+### Why the services?
+- #### Amazon Route 53
+
